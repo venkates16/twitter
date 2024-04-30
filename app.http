@@ -1,0 +1,86 @@
+###Api_1:
+
+POST http://localhost:3000/register/
+Content-Type:application/json 
+
+{
+  "username": "adam_richard",
+  "password": "richard_567",
+  "name": "Adam Richard",
+  "gender": "male"
+}
+
+#### Api_2:
+
+POST http://localhost:3000/login/
+Content-Type:application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567",
+  "name": "Adam Richard",
+  "gender": "male"
+}
+
+
+###
+Api_3:
+
+
+GET http://localhost:3000/user/tweets/feed/
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcxNDQ3NzU5NX0.3v2I8koYGxWFOvsyBnWoAP1VUHQ_4O__t6jQXIjAu0A
+
+###Api_4:
+
+GET http://localhost:3000/user/following/
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcxNDQ3NzU5NX0.3v2I8koYGxWFOvsyBnWoAP1VUHQ_4O__t6jQXIjAu0A
+
+
+
+###Api_5 :
+
+GET http://localhost:3000/user/followers/
+Authorization :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcxNDQ3NzU5NX0.3v2I8koYGxWFOvsyBnWoAP1VUHQ_4O__t6jQXIjAu0A
+
+
+###Api_6:
+
+GET http://localhost:3000/tweets/2/
+Authorization :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcxNDQ3NzU5NX0.3v2I8koYGxWFOvsyBnWoAP1VUHQ_4O__t6jQXIjAu0A
+
+
+###Api_7:
+
+GET http://localhost:3000/tweets/6/likes/
+Authorization :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcxNDQ3NzU5NX0.3v2I8koYGxWFOvsyBnWoAP1VUHQ_4O__t6jQXIjAu0A
+
+
+
+#### Api_8:
+
+GET http://localhost:3000/tweets/5/replies/
+Authorization :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcxNDQ3NzU5NX0.3v2I8koYGxWFOvsyBnWoAP1VUHQ_4O__t6jQXIjAu0A
+
+###Api_9:
+
+GET http://localhost:3000/user/tweets/
+Authorization :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcxNDQ3NzU5NX0.3v2I8koYGxWFOvsyBnWoAP1VUHQ_4O__t6jQXIjAu0A
+
+###Api_10:
+
+
+POST http://localhost:3000/user/tweets/
+Authorization :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcxNDQ3NzU5NX0.3v2I8koYGxWFOvsyBnWoAP1VUHQ_4O__t6jQXIjAu0A
+Content-Type:application/json 
+
+
+{
+   "tweet": "The Mornings..."
+}
+
+
+### Api_11:
+
+DELETE http://localhost:3000/tweets/1/
+Authorization :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcxNDQ3NzU5NX0.3v2I8koYGxWFOvsyBnWoAP1VUHQ_4O__t6jQXIjAu0A
+
